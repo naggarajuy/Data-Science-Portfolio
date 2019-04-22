@@ -1,0 +1,72 @@
+Linear Regression: Variance of Y(target) variable is explained by the variance of input variables
+Assumptions:
+## Check NA's
+## Outliers treatment
+## Check normalization of target variable
+## Check correlation(-1 to 1) b/w input variables(multicollineriarity)
+## linear relationshp b/w target and input variables
+
+##Errors should be normally distributed 
+
+If target variable is following normal distribution then we can use linear regression
+
+Linear Regression expression:
+y = b0 + b1X
+
+y - Target variable or dependant variable
+X(x1,x2..) - Independant variables or input variables
+
+SLR - simple linear regression
+
+
+MLR - Multiple linear regression
+Input variables are independant of each other
+
+most least used is Linear regression
+
+ 
+Modul dianostics:
+- Normal distribution
+- Input variables independance
+- Normal distribution of errors
+- constant variance of error terms
+- No auto correlation among errors
+auto correlation - if errors are dependant to each other
+- no effect of outliers & leverage observations
+
+
+- Input variables are dependant(high correlation) is called multicollinearity
+- In graph increasing and decresing and again incresing of errors is called as auto correction
+- Hetroscedasticity is also bit same that variance of errors shoud be constant(like cylindrical shape)
+- 
+Pre diagnostics                  post diagnostics
+- Normal dis                    - Multi colli
+- Independ input                - normality of errors
+- outliers                      - Homo scedasticity ( var is constant) | Hetero
+                                - No auto correction
+                                - Outliers
+
+
+
+OUTPUT of LM:
+Residuals - actual - predicted = errors
+
+Intercept - B0 value and regrssion line intersects the y axis is the intercept
+
+Residual standard error - The avg amount that our target variable measurememnts deviate from the fitted linear model(the model error term)
+
+Multiple R-square - find correlation b/w actual dependant value & predicted dependant value
+Square the correlation and that is R square
+- If no.of input variables increses R square value will increase
+- R square values are always b/w 0 and 1
+
+Adjusted R square - considers the no.of independant variables used in equation & penalizes for having independant variables
+ Formula  = 1-[(1-R^2)(n-1)/n-k-1]
+n- no.of data points in dataset
+k - no.of independant variables
+- Model with least adusted R square value is generally better model to go with.
+ 
+F-statistic - This test statistic tells us if there is a relationship between the dependent and independent variables we are testing. Generally, 
+  a large F indicates a stronger relationship.
+
+The model with least adj R square is generally the better model to go with

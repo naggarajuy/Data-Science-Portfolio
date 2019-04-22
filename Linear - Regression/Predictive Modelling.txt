@@ -1,0 +1,51 @@
+Predictive Modelling:
+
+Supervised Learning                                      		 			   Unsupervised Learning
+- When we have specific target value                    					- We dont have target value
+- Input variables(x (explanatory) are independant, Target variable(y) are dependant
+
+supervised learning two types:
+Regression and classification
+continous       categorical - Binary classification and multiclass
+
+
+
+y - actual price
+y^ - prediction price
+
+y-y^   e / error/residual
+
+(y-y^)2  e2
+
+MSE - mean squared 
+
+RMSE - 
+
+|y-y^| - modulus
+
+|y-y^|/y
+
+
+RSME && MAE most commonly used error metric 
+
+
+
+Confusion matrix - keep in mind
+
+precision = T.P/T.P + F.P
+how many times we stick to it
+
+
+recall = T.P/T.p + F.N
+
+
+f1 score = 2*p*R/p+R  
+
+
+ANOVA:
+
+F = MSG/MSW
+
+MSG = SSG/k-1
+
+MSW = SSW/n-k
